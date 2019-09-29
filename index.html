@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="cs">
+
+<head>
+    <title>Výpočetní kalkulačka - výpočet výkonu stroje</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    </head>
+
+<body>
+    <header class="jumbotron bg-primary text-light text-center">
+        <h1>Výpočetní kalkulačka</h1>
+        <h3>výpočet výkonu stroje</h3>
+    </header>
+    <main>
+        <div class="container">
+            <form>
+                <div class="form-group row">
+                    <label for="prace" class="col-sm-3 col-form-label">Zadej práci v J [joulech]</label>
+                    <div class="col-sm-1-12">
+                        <input type="text" class="form-control" id="prace" value="0">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="cas" class="col-sm-3 col-form-label">Zadej čas v s [sekundách]</label>
+                    <div class="col-sm-1-12">
+                        <input type="text" class="form-control" id="cas" value="0">
+                    </div>
+                </div>
+                    <div class="col-sm-1-12 tlacitko">
+                        <button type="button" class="btn btn-primary" id="tlacitko">Vypočti</button>
+                    </div>
+                
+            </form>
+            <p>Výkon Vašeho stroje je: <span id="vysledek">0</span> W</p>
+        </div>
+        </div>
+    </main>
+    <footer class="text-center">
+        <hr>
+        &copy; 2019 Vítězslav Jahn, IT2 SŠPU Opava
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/functions.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

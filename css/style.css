@@ -1,0 +1,15 @@
+p{
+    line-height: 400%;
+}
+@media only screen and (max-width: 600px) {
+    .form-group {
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .tlacitko {
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
