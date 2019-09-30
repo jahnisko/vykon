@@ -23,6 +23,5 @@ function vypocetVykonu() {
 tlacitko.addEventListener('click', function () {
     console.log(vypocetVykonu());
     vysledek.innerText = vypocetVykonu();
-    vysledek.style.color = 'yellow';
-    vysledek.style.backgroundColor = "black";
+    vysledek.style.color = 'red';
 })
