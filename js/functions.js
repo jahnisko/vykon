@@ -24,4 +24,5 @@ tlacitko.addEventListener('click', function () {
     console.log(vypocetVykonu());
     vysledek.innerText = vypocetVykonu();
     vysledek.style.color = 'red';
+    vysledek.style.fontWeight = 'bold';
 })
